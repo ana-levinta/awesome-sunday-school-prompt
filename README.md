@@ -1,6 +1,6 @@
 # 🕊️ Orthodox Sunday School Prompt for LLMs
 
-Welcome to the **Orthodox Sunday School Prompt Repository**! This repository contains a carefully crafted prompt designed for use with large language models (LLMs) to generate interactive, educational lesson plans for children aged 7–9, aligned with the Eastern Orthodox Christian liturgical calendar.
+Welcome to the **Orthodox Sunday School Prompt Repository**! This repository contains a professionally engineered prompt designed for use with large language models (LLMs) to generate interactive, educational lesson plans for children, aligned with the Eastern Orthodox Christian liturgical calendar.
 
 ---
 
@@ -15,49 +15,50 @@ This prompt instructs the LLM to act as a Sunday School teacher in an Orthodox C
 
 ---
 
-## 📋 Prompt Format
+## 🆕 Features
 
-The prompt is written in English and optimized for LLMs using best practices from [Awesome ChatGPT Prompts](https://es:
+✅ **Language Selection**  
+Users can specify the language in which the lesson plan should be generated (e.g., English, Romanian, Greek, Russian).
 
-- Clear context and role definition.
-- Specific task instructions.
-- Conditional logic to ensure user interaction.
-- Output formatting suitable for A4 printing.
+✅ **Output Format Options**  
+Before generating the lesson plan, the model will ask the user to choose from:
+- Printable A4 version (plain text)
+- PDF document
+- Markdown file
+- Slide deck outline
+- Other (user-defined)
+
+✅ **Parametrizable Age Group**  
+The default target age group is **7–9 years**, but users can confirm or specify a different age range.
+
+✅ **Liturgical Alignment**  
+The model checks the current Orthodox liturgical calendar and presents a list of relevant saints, feasts, or events for the week. The user selects the topic before the lesson plan is generated.
 
 ---
 
 ## 🚀 How to Use This Prompt
 
 ### 🧠 ChatGPT (OpenAI)
-1. Go to chat.openai.com.
-2. Paste the prompt into the chat window.
-3. Follow the instructions: wait for the list of saints/events, then confirm your topic.
-4. Receive a printable lesson plan tailored to your selection.
+1. Go to [chat.openai.com](httpste the prompt into the chat window.
+3. Confirm the age group, language, and output format.
+4. Choose a topic from the weekly liturgical calendar.
+5. Receive a customized lesson plan.
 
 ### 🧠 Microsoft Copilot
 1. Open Copilot in Edge or Microsoft 365.
 2. Paste the prompt into the chat.
-3. Confirm the topic after the model lists weekly liturgical options.
+3. Follow the interactive steps to configure the lesson.
 4. Use the generated content for Sunday School preparation.
 
 ### 🧠 Claude (Anthropic)
 1. Use Claude via claude.ai or integrated platforms.
 2. Paste the prompt and interact as instructed.
-3. Claude will follow the logic and generate lesson plans upon confirmation.
+3. Confirm all parameters before receiving the lesson plan.
 
 ### 🧠 Gemini (Google)
 1. Access Gemini via bard.google.com or Google Workspace.
 2. Paste the prompt and engage with the model.
-3. Confirm your topic before receiving the lesson plan.
-
----
-
-## 🛠️ Customization Tips
-
-You can modify the prompt to:
-- Change the age group (e.g., 10–12 years).
-- Focus on specific Orthodox feasts or saints.
-- Include additional educational goals (e.g., scripture memorization, iconography).
+3. Confirm your topic and preferences before generation.
 
 ---
 
